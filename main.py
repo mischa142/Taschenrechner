@@ -17,9 +17,12 @@ def main():
         case "2":
             # Hier Funktion für die Subtraktion einfügen
         case "3":
-            # Hier die Funktion für die Multiplikation einfügen
+            a = float(input("Erste Zahl: "))
+            b = float(input("Zweite Zahl: "))
+            print("Resultat: {}".format(multiplikation(a, b)))
         case "4":
-            # Hier die Funktion für die Division einfügen
+            a = float(input("Erste Zahl: "))
+            b = float(input("Zweite Zahl: "))
         case _:
             print("Falsche Auswahl, das Programm wird beendet.")
 
